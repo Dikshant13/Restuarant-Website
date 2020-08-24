@@ -13,7 +13,7 @@ body {
 }
 
 #logo-img {
-  background: url('/images/restaurant-logo_medium.png') no-repeat;
+  background: url("/images/restaurant-logo_medium.png") no-repeat;
   width: 100px;
   height: 100px;
   margin: 5px 5px 5px 0;
@@ -140,7 +140,7 @@ body {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('/images/jumbotron_1200.jpg') no-repeat;
+    background: url("/images/jumbotron_1200.jpg") no-repeat;
     height: 675px;
   }
 }
@@ -149,7 +149,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('/images/restaurant-logo_medium.png') no-repeat;
+    background: url("/images/restaurant-logo_medium.png") no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -158,7 +158,7 @@ body {
 
   /* Home Page */
   .container .jumbotron {
-    background: url('/images/jumbotron_992.jpg') no-repeat;
+    background: url("/images/jumbotron_992.jpg") no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -168,7 +168,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('/images/jumbotron_768.jpg') no-repeat;
+    background: url("/images/jumbotron_768.jpg") no-repeat;
     height: 432px;
   }
   /* End Home Page */
@@ -236,7 +236,7 @@ body {
 /*--------------- for extra small mobiles -------------------*/
 
 @media (max-width: 479px) {
-  
+
   .navbar-brand h1 {  /*-------------restuarant name-----*/
     padding-top: 5px;
     font-size: 6vw;
