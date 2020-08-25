@@ -108,14 +108,14 @@ body {
 
 #menu-tile {
 
-  background:url("/images/menu-tile.jpg") no-repeat;
+  background:url("/images/menu.jpg") no-repeat;
   position: center;
 
 }
 
 #specials-tile {
 
-  background:url("/images/specials-tile.jpg") no-repeat;
+  background:url("/images/specials.jpg") no-repeat;
   position: center;
 }
 
