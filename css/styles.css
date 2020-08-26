@@ -147,14 +147,14 @@ body {
 
 #menu-tile {
 
-  background:url("/images/menu-tile.jpg") no-repeat;
+  background:url("/images/menu-tile1.jpg") no-repeat;
   position: center;
 
 }
 
 #specials-tile {
 
-  background:url("/images/specials-tile.jpg") no-repeat;
+  background:url("/images/specials-tile1.jpg") no-repeat;
   position: center;
 }
 
@@ -257,6 +257,25 @@ body {
     text-transform: uppercase;
   }
   /* End Header */
+
+
+
+  /*-----------------------------footer section-------*/
+
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+
+  }
+
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0;
+  }
+
+  .panel-footer section hr {
+    width: 50%;
+  }
+
 
   /* Home Page */
   .container .jumbotron {
