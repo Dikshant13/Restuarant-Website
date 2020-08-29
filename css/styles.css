@@ -115,7 +115,12 @@ body {
 
 }
 
-
+#hours span {
+  color: #0000FF;
+}
+#address span {
+  color: #0000FF;
+}
 
 #testimonials {
   font-style: italic;
@@ -126,6 +131,15 @@ body {
 #testimonials p:nth-child(2) {
   margin-top: 25px;
 }
+
+  .panel-footer section hr {
+    width: 50%;
+  }
+
+  .visible-xs {
+    width: 50%;
+  }
+
 
 
 /* HOME PAGE */
@@ -226,7 +240,7 @@ body {
   margin-bottom: 25px;
 }
 .menu-item-tile hr {
-  width: 50%;
+  width:;
 }
 .menu-item-tile .menu-item-price {
   font-size: 1.1em;
