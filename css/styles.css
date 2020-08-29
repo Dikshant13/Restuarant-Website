@@ -119,9 +119,8 @@ body {
 
 #testimonials {
   font-style: italic;
-  color: #FCCD04;
-  
-
+  color: #800000;
+  text-shadow: white;
 }
 
 #testimonials p:nth-child(2) {
@@ -227,7 +226,7 @@ body {
   margin-bottom: 25px;
 }
 .menu-item-tile hr {
-  width: 80%;
+  width: 50%;
 }
 .menu-item-tile .menu-item-price {
   font-size: 1.1em;
