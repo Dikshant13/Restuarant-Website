@@ -112,7 +112,6 @@ body {
   font-size: .8em;
   color: #557c3e;
   line-height: 1.8em;
-  text-align: center;
 
 }
 
@@ -127,7 +126,6 @@ body {
 #testimonials {
   font-style: italic;
   color: #800000;
-  text-shadow: white;
 }
 
 #testimonials p:nth-child(2) {
@@ -138,9 +136,6 @@ body {
     width: 50%;
   }
 
-  .visible-xs {
-    width: 50%;
-  }
 
 
 
