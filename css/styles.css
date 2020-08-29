@@ -112,6 +112,7 @@ body {
   font-size: .8em;
   color: #557c3e;
   line-height: 1.8em;
+  text-align: center;
 
 }
 
@@ -121,6 +122,7 @@ body {
 #address span {
   color: #0000FF;
 }
+
 
 #testimonials {
   font-style: italic;
