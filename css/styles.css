@@ -86,11 +86,6 @@ body {
 
 
 
-
-
-
-
-
 /* FOOTER  */
 .panel-footer {
   margin-top: 30px;
@@ -117,6 +112,7 @@ body {
   font-size: .8em;
   color: #557c3e;
   line-height: 1.8em;
+  text-align: center;
 
 }
 
