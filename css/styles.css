@@ -45,7 +45,7 @@ body {
 }
 .navbar-brand p span {                 /*-------------------------Star image--------------------------- */
   vertical-align: middle;
-  color: red ;                 /*----------------------------------*/
+  color: #F93822FF;                 /*----------------------------------*/
   font-family: oxygen;
   font-weight: bold;
 }
@@ -260,7 +260,7 @@ body {
   width: 100%;
   text-align: center;
   font-size: 1.2em;
-  text-transform: uppercase;
+  text-transform: ;
   background-color: #000;
   color:#fff;
   opacity: .8;
@@ -294,6 +294,7 @@ body {
 }
 .menu-item-tile .menu-item-price span {
   font-size: .6em;
+  text-align: center;
 }
 .menu-item-photo {
   position: relative;
@@ -315,6 +316,7 @@ body {
 }
 .menu-item-description {
   padding-right: 30px;
+  text-align: center;
 }
 h3.menu-item-title {
   margin: 0 0 10px;
@@ -363,6 +365,8 @@ h3.menu-item-title {
     background: url("../images/jumbotron_768.jpg") no-repeat;
     height: 432px;
   }
+
+
   /* End Home Page */
 
 }
@@ -436,4 +440,5 @@ h3.menu-item-title {
     float: left;
     width: 100%;
   }
+ 
 }
