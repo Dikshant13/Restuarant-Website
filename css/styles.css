@@ -25,7 +25,7 @@ body {
 
 .navbar-brand h1 {                    /*-------------Restaurant name------------ */
   font-family: 'Oxygen', serif;
-  color: green;
+  color: blue;/*-----------------------------------------------------------------------*/
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -45,7 +45,7 @@ body {
 }
 .navbar-brand p span {                 /*-------------------------Star image--------------------------- */
   vertical-align: middle;
-  color: purple;
+  color: red ;                 /*----------------------------------*/
   font-family: oxygen;
   font-weight: bold;
 }
@@ -171,7 +171,7 @@ body {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border:2px solid violet;
+  border:2px solid rgb(0,200,0);
   overflow: hidden;
   border-radius:5px;
 
@@ -185,7 +185,7 @@ body {
 
 
 #map-tile:hover {
-  box-shadow: 0 1px 5px 1px purple;
+  box-shadow: 0 1px 5px 1px  green;
 }
 
 
