@@ -45,6 +45,9 @@ body {
 }
 .navbar-brand p span {                 /*-------------------------Star image--------------------------- */
   vertical-align: middle;
+  color: purple;
+  font-family: oxygen;
+  font-weight: bold;
 }
 
 #nav-list {
@@ -81,6 +84,8 @@ body {
   clear: both;
   margin-top: -30px;
 }
+
+
 /* END HEADER */
 
 
@@ -106,6 +111,7 @@ body {
 
 #hours > span , #address > span {
   font-size: 1.3em;
+
 }
 
 #address p {
@@ -118,9 +124,11 @@ body {
 #hours span {
   color: #0000FF;
 }
+
 #address span {
   color: #0000FF;
 }
+
 
 
 #testimonials {
@@ -148,7 +156,7 @@ body {
 
 
 
-#menu-tile ,#specials-tile ,#map-tile{
+#menu-tile ,#specials-tile ,#dessert-tile{
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -158,14 +166,33 @@ body {
   border-radius:5px;
 }
 
+#map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border:2px solid violet;
+  overflow: hidden;
+  border-radius:5px;
 
-#menu-tile:hover ,#specials-tile:hover ,#map-tile:hover  {
+}
+
+
+#menu-tile:hover ,#specials-tile:hover ,#dessert-tile:hover  {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
+
+
+#map-tile:hover {
+  box-shadow: 0 1px 5px 1px purple;
+}
+
+
+
 #menu-tile {
 
-  background:url("../images/menu-tile1.jpg") no-repeat;
+  background:url("../images/veg-thali.jpg") no-repeat;
   position: center;
 
 }
@@ -176,9 +203,14 @@ body {
   position: center;
 }
 
+#dessert-tile {
+  background-image: url("../images/dessert.jpg");
+  position:center;
+}
 
 
-#menu-tile span , #specials-tile span , #map-tile span {
+
+#menu-tile span , #specials-tile span , #dessert-tile span {
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -189,6 +221,21 @@ body {
   background-color: #000;
   color: #fff;
   opacity: 0.8;
+}
+
+
+#map-tile span {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+
 }
 
 
@@ -376,7 +423,7 @@ h3.menu-item-title {
   /* End Header */
   
   /* Home page */
-  #menu-tile, #specials-tile {
+  #menu-tile, #specials-tile, #dessert-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
