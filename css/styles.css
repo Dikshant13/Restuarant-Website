@@ -144,7 +144,9 @@ body {
     width: 50%;
   }
 
-
+#copyright {
+  color: blue;
+}
 
 
 /* HOME PAGE */
